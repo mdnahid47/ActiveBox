@@ -1,0 +1,128 @@
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "Raleway", sans-serif; */
+/*   font-family: "Cardo", serif; */
+
+.hero-section{
+    background-image: url(Images/Image/Background.jpg);
+    height: 750px;
+    width: 100%;
+}
+.navbar ul li a{
+    color: white;
+}
+.display{
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.d-heading h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 65pt;
+    
+}
+
+.d-text{
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    margin-top: 80px;
+    height: 50px;
+    width: 200px;
+    background-color: #e84545;
+    border: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+/* Feature Area */
+.feature{
+    margin-top: 80px;
+    display: flex;
+
+   
+    
+}
+
+.feature-content{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-top: 30px;
+}
+.heading h3{
+   
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+}
+.text{
+margin-top: 20px;
+}
+.text p{
+    margin-top: 10px;
+    align-items: center;
+    line-height: 5px;
+    font-family: "Raleway", sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Work Area */
+
+.work{
+    display: flex;
+    margin-top: 100px;
+}
+.work-2{
+    display: flex;
+}
+.work-img img{
+    width: 336px;
+    height: 250px;
+}
+
+
+/* Team-area */
+.team{
+    margin-top: 100px;
+}
+.card-title{
+    font-family: "Raleway", sans-serif; 
+    
+    font-size: 22pt;
+}
+.name-title{
+    font-family: "Raleway", sans-serif; 
+    font-weight: 400;
+   text-transform: uppercase;
+   color: #e84545;
+   font-size: 13pt;
+}
+
+.card-text{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+}
