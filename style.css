@@ -1,7 +1,12 @@
 /* font-family: "Open Sans", sans-serif; */
 /* font-family: "Raleway", sans-serif; */
 /*   font-family: "Cardo", serif; */
-
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .hero-section{
     background-image: url(Images/Image/Background.jpg);
     height: 750px;
@@ -126,3 +131,69 @@ margin-top: 20px;
     font-weight: 400;
     font-size: 14pt;
 }
+
+/* carousel area */
+
+.images {
+    width: 680px;
+    
+}
+
+.carousel-area{
+    background-color: #53354a;
+    color: white;
+
+    width: 100%;
+}
+
+.c-title{
+    margin-top: 20px;
+    font-family: "Cardo", serif;
+    font-style: italic;
+    font-size: 22pt;
+}
+
+.c-text{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold; 
+    font-size: 12pt;
+    margin-bottom: 100px;
+}
+#button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* Download Area */
+
+.download{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 28pt;
+}
+.download p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 13pt;
+    font-weight: bold;
+}
+
+.download button{
+    margin-top: 30px;
+    width: 280px;
+    height: 50px;
+    background-color: #e84545;
+    border: none;
+}
+
+
+
+
