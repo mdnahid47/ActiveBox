@@ -52,6 +52,9 @@ body{
     font-weight: 600;
 }
 
+
+
+
 /* Feature Area */
 .feature{
     margin-top: 80px;
@@ -233,6 +236,22 @@ margin-top: 20px;
     color: white;
 }
 
+.footer{
+    background-color: #313454;
+    color: grey;
+}
+.footer-content{
+   padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
